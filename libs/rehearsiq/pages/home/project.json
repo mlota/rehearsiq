@@ -1,0 +1,20 @@
+{
+	"name": "home",
+	"$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+	"sourceRoot": "libs/rehearsiq/pages/home/src",
+	"prefix": "lib",
+	"projectType": "library",
+	"tags": ["ui"],
+	"targets": {
+		"test": {
+			"executor": "@nx/jest:jest",
+			"outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+			"options": {
+				"jestConfig": "libs/rehearsiq/pages/home/jest.config.ts"
+			}
+		},
+		"lint": {
+			"executor": "@nx/eslint:lint"
+		}
+	}
+}
