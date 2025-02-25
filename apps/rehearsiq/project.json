@@ -15,14 +15,14 @@
         "browser": "apps/rehearsiq/src/main.ts",
         "polyfills": ["zone.js"],
         "tsConfig": "apps/rehearsiq/tsconfig.app.json",
-        "inlineStyleLanguage": "scss",
+        "inlineStyleLanguage": "css",
         "assets": [
           {
             "glob": "**/*",
             "input": "apps/rehearsiq/public"
           }
         ],
-        "styles": ["apps/rehearsiq/src/styles.scss"],
+        "styles": ["apps/rehearsiq/src/styles.css"],
         "scripts": []
       },
       "configurations": {

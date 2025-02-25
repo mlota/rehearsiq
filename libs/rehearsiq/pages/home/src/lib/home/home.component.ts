@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { HlmFormFieldModule } from '@spartan-ng/ui-formfield-helm';
+import { HlmInputDirective } from '@spartan-ng/ui-input-helm';
 
 @Component({
-	selector: 'lib-home',
-	imports: [CommonModule],
+	selector: 'rehearsiq-home',
 	templateUrl: './home.component.html',
-	styleUrl: './home.component.scss'
+	styleUrl: './home.component.css',
+	changeDetection: ChangeDetectionStrategy.OnPush,
+	standalone: true,
+	imports: [HlmInputDirective, HlmFormFieldModule]
 })
 export class HomeComponent {}

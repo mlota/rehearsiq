@@ -14,10 +14,14 @@
 		},
 		"editor.renderWhitespace": "all",
 		"editor.codeActionsOnSave": {
-			"source.organizeImports": "always"
+			"source.organizeImports": "explicit",
+			"source.removeUnusedImports": "explicit"
 		}
 	},
 	"[html]": {
+		"editor.formatOnSave": true
+	},
+  "[css]": {
 		"editor.formatOnSave": true
 	},
 	"[scss]": {
@@ -61,9 +65,6 @@
 		}
 	} */
 	"cSpell.ignoreWords": [
-		"combobox",
-		"fieldset",
-		"fieldsets",
-		"kanban"
+		"rehearsiq"
 	]
 }
