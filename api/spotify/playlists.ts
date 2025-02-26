@@ -1,4 +1,3 @@
-// import { getAccessToken } from '@rehearsiq/api';
 import { getAccessToken, getPlaylist } from '../../libs/api/src/lib/spotify';
 
 export async function GET(request: Request) {
