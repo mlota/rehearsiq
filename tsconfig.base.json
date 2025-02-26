@@ -15,6 +15,7 @@
 		"skipDefaultLibCheck": true,
 		"baseUrl": ".",
 		"paths": {
+			"@rehearsiq/api": ["libs/api/src/index.ts"],
 			"@rehearsiq/home": ["libs/rehearsiq/pages/home/src/index.ts"],
 			"@rehearsiq/layout": ["libs/rehearsiq/layout/src/index.ts"],
 			"@spartan-ng/ui-accordion-helm": [
