@@ -37,7 +37,7 @@ export const getPlaylist = async (
 
 	try {
 		const response = await axios.get<Playlist>(
-			`${PLAYLIST_ENDPOINT}/${playlistId}`,
+			`${PLAYLIST_ENDPOINT}/${playlistId}?market=GB`,
 			{
 				headers: { Authorization: `Bearer ${accessToken}` }
 			}
