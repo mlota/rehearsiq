@@ -1,9 +1,5 @@
 {
 	"version": 2,
-	"projectSettings": {
-		"framework": null,
-		"buildCommand": "nx run-many --target=build --projects=rehearsiq,rehearsiq-api"
-	},
 	"builds": [
 		{
 			"src": "dist/apps/rehearsiq-api/apps/rehearsiq-api/api/**/*.ts",
